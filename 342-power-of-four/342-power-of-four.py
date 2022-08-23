@@ -6,5 +6,5 @@ class Solution:
         while num >1 :
             num = num/4  
             steps+=1
-        return True if int(4**steps) == n else False
+        return True if 4**steps == n else False
         
